@@ -1,0 +1,14 @@
+clone:
+  git:
+    image: plugins/git
+    depth: 1
+
+pipeline:
+  buildfe:
+    image: node:8.9.0
+    commands:
+      - npm install
+      - npm run dev
+
+branches:
+  include: [ master, develop ]
