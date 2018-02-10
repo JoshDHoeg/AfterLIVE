@@ -1,0 +1,35 @@
+#intro {
+	width: 100%;
+	position: relative;
+	z-index: 10;
+}
+
+.layer {
+	position: absolute;
+	display: block;
+}
+#l1 {
+	z-index: 4;
+	top: 70%;
+	left: 30%;
+}
+
+#l2 {
+	z-index: 2;
+	top: 32.5%;
+  left: 0;
+  right: 0;
+}
+#l2 h1{
+  font-size: 12vw;
+  color: #fff;
+}
+
+#l3 {
+	z-index: 3;
+	top: 40%;
+	left: 25%;
+}
+#l3 img{
+  width: 50vw;
+}
