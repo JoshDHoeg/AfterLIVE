@@ -2,6 +2,7 @@
 @import "intro";
 @import "ethos";
 @import "tools";
+@import "gallery";
 
 $fade-1: rgba(191, 39, 38, 0.4);
 $fade-2: rgba(191, 39, 38, 0.6);
@@ -13,92 +14,6 @@ $fade-2: rgba(191, 39, 38, 0.6);
 
 ::-webkit-scrollbar {
   display: none;
-}
-
-
-
-
-#gallery {
-  margin-top: 250px;
-  .demo{
-    height: 400px;
-    position: relative;
-    color: #ffffff;
-    background-size: 150%;
-    background-position: center;
-    background-repeat: no-repeat;
-    transition: 0.5s ease-out;
-    a{
-      cursor: pointer;
-    }
-  }
-  .demo-text{
-    padding: 64px 32px;
-    transition: 0.5s ease-out;
-  }
-  }
-  .demo:hover{
-    background-size: 160%;
-    transition: 0.5s ease-out;
-    background: rgba(33, 33, 33, 0.8);
-  }
-  .demo-text:hover h1{
-    visibility: visible;
-    transition: 0.5s ease-out;
-  }
-  .demo-text h1{
-    visibility: hidden;
-  }
-  .demo-text{
-    position: absolute;
-    z-index: 200;
-    top: 0;
-    bottom: 0;
-    right: 0;
-    left: 0;
-    transition: 0.5s ease-out;
-  }
-  .play-button_wrapper{
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translateY(-50%) translateX(-50%);
-  }
-}
-#demo-1{
-  background: url('../images/gallery/shambhala.png');
-}
-#demo-2{
-  background: url('../images/gallery/breckenridge.png');
-}
-#demo-3{
-  background: url('../images/gallery/daniels.png');
-}
-#demo-4{
-  background: url('../images/gallery/borgore.png');
-}
-#demo-5{
-  background: url('../images/gallery/peoplesfair.png');
-}
-#demo-6{
-  background: url('../images/gallery/um.png');
-}
-#demo-7{
-  background: url('../images/gallery/innovation.png');
-}
-#demo-8{
-  background: url('../images/gallery/boombox.png');
-}
-#demo-9{
-  background: url('../images/gallery/dancefest.png');
-}
-#demo-10{
-  background: url('../images/gallery/medasin.png');
-}
-
-.play-button{
-  width: 64px;
-  opacity: 0.7;
 }
 
 #gallery-modal{
