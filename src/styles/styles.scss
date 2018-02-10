@@ -1,5 +1,6 @@
 @import "custom";
 @import "intro";
+@import "ethos";
 
 $fade-1: rgba(191, 39, 38, 0.4);
 $fade-2: rgba(191, 39, 38, 0.6);
@@ -9,16 +10,15 @@ $fade-2: rgba(191, 39, 38, 0.6);
   font-family: 'Rajdhani', sans-serif;
 }
 
-
-
-
-
-
+::-webkit-scrollbar {
+  display: none;
+}
 
 
 
 
 #gallery {
+  margin-top: 250px;
   .demo{
     height: 300px;
     position: relative;
@@ -204,7 +204,7 @@ $fade-2: rgba(191, 39, 38, 0.6);
   position:absolute;
   width:250px;
   height:100vw;
-  background: #333;
+  background: #222;
 }
 #container2 {
   transform: rotate(90deg) translateY(-250px);
@@ -216,7 +216,9 @@ $fade-2: rgba(191, 39, 38, 0.6);
   width: 200px;
   height: 200px;
 }
-
+#tools{
+  height: 250px;
+}
 
 .cta{
   margin-top: 250px;
