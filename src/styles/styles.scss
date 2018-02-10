@@ -1,6 +1,7 @@
 @import "custom";
 @import "intro";
 @import "ethos";
+@import "tools";
 
 $fade-1: rgba(191, 39, 38, 0.4);
 $fade-2: rgba(191, 39, 38, 0.6);
@@ -20,37 +21,33 @@ $fade-2: rgba(191, 39, 38, 0.6);
 #gallery {
   margin-top: 250px;
   .demo{
-    height: 300px;
+    height: 400px;
     position: relative;
     color: #ffffff;
-    background-size: 140%;
+    background-size: 150%;
     background-position: center;
     background-repeat: no-repeat;
     transition: 0.5s ease-out;
+    a{
+      cursor: pointer;
+    }
   }
   .demo-text{
     padding: 64px 32px;
     transition: 0.5s ease-out;
   }
-  .col-md-5{
-    .demo-text{
-      background: $fade-1;
-    }
-    .demo-text:hover{
-      background: rgba(0, 0, 0, 0);
-    }
-  }
-  .col-md-7{
-    .demo-text{
-      background: $fade-2;
-    }
-    .demo-text:hover{
-      background: rgba(0, 0, 0, 0);
-    }
   }
   .demo:hover{
-    background-size: 150%;
+    background-size: 160%;
     transition: 0.5s ease-out;
+    background: rgba(33, 33, 33, 0.8);
+  }
+  .demo-text:hover h1{
+    visibility: visible;
+    transition: 0.5s ease-out;
+  }
+  .demo-text h1{
+    visibility: hidden;
   }
   .demo-text{
     position: absolute;
@@ -62,7 +59,10 @@ $fade-2: rgba(191, 39, 38, 0.6);
     transition: 0.5s ease-out;
   }
   .play-button_wrapper{
-    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateY(-50%) translateX(-50%);
   }
 }
 #demo-1{
@@ -177,48 +177,6 @@ $fade-2: rgba(191, 39, 38, 0.6);
   max-height: 768px;
 }
 
-#container .box {
-  width:250px;
-  height:250px;
-  display:inline-block;
-  position:relative;
-}
-#container .box > div {
-  width:200px;
-  height:200px;
-  font-size:96px;
-  color:#FFF;
-  position:absolute;
-  top:50%;
-  left:50%;
-  margin:-100px 0 0 -100px;
-  line-height:.7;
-  font-weight:bold;
-}
-#container {
-  overflow-y:scroll;
-  overflow-x:hidden;
-  transform: rotate(270deg) translateX(-100%);
-  transform-origin: top left;
-  background-color:#999;
-  position:absolute;
-  width:250px;
-  height:100vw;
-  background: #222;
-}
-#container2 {
-  transform: rotate(90deg) translateY(-250px);
-  transform-origin: top left;
-  white-space:nowrap;
-  font-size:0;
-}
-#container #container2 img{
-  width: 200px;
-  height: 200px;
-}
-#tools{
-  height: 250px;
-}
 
 .cta{
   margin-top: 250px;
