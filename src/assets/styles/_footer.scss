@@ -1,0 +1,16 @@
+#footer{
+  padding-top: 640px;
+  z-index: 100;
+  img{
+    position: relative;
+    z-index: 1000;
+    width: 100%;
+  }
+  .footer-content{
+    height: 400px;
+    background: #111111;
+  }
+  .social img{
+    width: 64px;
+  }
+}

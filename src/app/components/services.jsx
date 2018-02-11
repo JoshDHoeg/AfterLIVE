@@ -1,4 +1,9 @@
 import React from 'react';
+import livestream from './../../assets/images/icons/livestream.png';
+import action from './../../assets/images/icons/action.png';
+import tour from './../../assets/images/icons/tour.png';
+import edit from './../../assets/images/icons/edit.png';
+import audio from './../../assets/images/icons/audio.png';
 
 class Services extends React.Component {
   constructor(props) {
@@ -19,19 +24,19 @@ class Services extends React.Component {
 
               <div className="row">
                 <div className="col-sm-12 col-md-4 service">
-                  <img src="./images/icons/livestream.png" width="64px" />
+                  <img src={livestream} width="64px" />
                   <h3>Livestream VR</h3>
                   <div className="break" />
                   <p>Experienced 360° videographers with Steroscopic 8K cameras.</p>
                 </div>
                 <div className="col-sm-12 col-md-4 service">
-                  <img src="./images/icons/action.png" width="64px" />
+                  <img src={action} width="64px" />
                   <h3>Live Action VR</h3>
                   <div className="break" />
                   <p>Experienced 360° videographers with Steroscopic 8K cameras.</p>
                 </div>
                 <div className="col-sm-12 col-md-4 service">
-                  <img src="./images/icons/tour.png" width="64px" />
+                  <img src={tour} width="64px" />
                   <h3>VR Virtual Tours</h3>
                   <div className="break" />
                   <p>Experienced 360° videographers with Steroscopic 8K cameras.</p>
@@ -39,13 +44,13 @@ class Services extends React.Component {
               </div>
               <div className="row">
                 <div className="col-sm-12 col-md-4 offset-md-2 service">
-                  <img src="./images/icons/edit.png" width="64px" />
+                  <img src={edit} width="64px" />
                   <h3>VR Edits</h3>
                   <div className="break" />
                   <p>Experienced 360° videographers with Steroscopic 8K cameras.</p>
                 </div>
                 <div className="col-sm-12 col-md-4 service">
-                  <img src="./images/icons/audio.png" width="64px" />
+                  <img src={audio} width="64px" />
                   <h3>Spatialized Audio</h3>
                   <div className="break" />
                   <p>Experienced 360° videographers with Steroscopic 8K cameras.</p>

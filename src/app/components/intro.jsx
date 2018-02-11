@@ -1,4 +1,8 @@
 import React from 'react';
+import weddings from './../../assets/images/weddings.png';
+import concert from './../../assets/images/concert.png';
+import spaces from './../../assets/images/spaces.png';
+import instapro from './../../assets/images/instapro.png';
 
 class Intro extends React.Component {
   constructor(props) {
@@ -11,13 +15,13 @@ class Intro extends React.Component {
             <div id="carouselExampleIndicators" className="carousel slide" data-ride="carousel">
               <div className="carousel-inner">
                 <div className="carousel-item active">
-                  <img className="d-block w-100" src="./images/weddings.png" alt="First slide" />
+                  <img className="d-block w-100" src={weddings} alt="First slide" />
                 </div>
                 <div className="carousel-item">
-                  <img className="d-block img-fluid" src="./images/concert.png" alt="Second slide" />
+                  <img className="d-block img-fluid" src={concert} alt="Second slide" />
                 </div>
                 <div className="carousel-item">
-                  <img className="d-block img-fluid" src="./images/spaces.png" alt="Third slide" />
+                  <img className="d-block img-fluid" src={spaces} alt="Third slide" />
                 </div>
               </div>
             </div>
@@ -28,7 +32,7 @@ class Intro extends React.Component {
             </div>
             <div className="layer" id="l3">
               <div id="insta">
-                <img src="./images/instapro.png" />
+                <img src={instapro} />
               </div>
             </div>
           </section>

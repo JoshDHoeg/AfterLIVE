@@ -1,4 +1,5 @@
 import React from 'react';
+import play from './../../assets/images/icons/play.png';
 
 class Gallery extends React.Component {
   constructor(props) {
@@ -15,7 +16,7 @@ class Gallery extends React.Component {
                     <div className="demo-text">
                       <h1>Shambala Music Festival 2017 Aftermovie</h1>
                       <span className="play-button_wrapper" role="button" data-target="#carouselIndicators" data-slide-to="0">
-                        <img className="play-button" src="./images/icons/play.png" />
+                        <img className="play-button" src={play} />
                       </span>
                     </div>
                   </a>
@@ -25,7 +26,7 @@ class Gallery extends React.Component {
                     <div className="demo-text">
                       <h1>International Snow Sculpture Festival - Westword</h1>
                       <span className="play-button_wrapper" role="button" data-target="#carouselIndicators" data-slide-to="1">
-                        <img className="play-button" src="./images/icons/play.png" />
+                        <img className="play-button" src={play} />
                       </span>
                     </div>
                   </a>
@@ -38,7 +39,7 @@ class Gallery extends React.Component {
                     <div className="demo-text">
                       <h1>VIRTUAL TOUR University of Denver Daniels College od Business</h1>
                       <span className="play-button_wrapper" role="button" data-target="#carouselIndicators" data-slide-to="2">
-                        <img className="play-button" src="./images/icons/play.png" />
+                        <img className="play-button" src={play} />
                       </span>
                     </div>
                   </a>
@@ -48,7 +49,7 @@ class Gallery extends React.Component {
                     <div className="demo-text">
                       <h1>Decadence 2017 Borgore Aftermovie</h1>
                       <span className="play-button_wrapper" role="button" data-target="#carouselIndicators" data-slide-to="3">
-                        <img className="play-button" src="./images/icons/play.png" />
+                        <img className="play-button" src={play} />
                       </span>
                     </div>
                   </a>
@@ -60,7 +61,7 @@ class Gallery extends React.Component {
                     <div className="demo-text">
                       <h1>Peoples Fair Denver Aftermovie</h1>
                       <span className="play-button_wrapper" role="button" data-target="#carouselIndicators" data-slide-to="4">
-                        <img className="play-button" src="./images/icons/play.png" />
+                        <img className="play-button" src={play} />
                       </span>
                     </div>
                   </a>
@@ -70,7 +71,7 @@ class Gallery extends React.Component {
                     <div className="demo-text">
                       <h1>Um... Special Affects Recap</h1>
                       <span className="play-button_wrapper" role="button" data-target="#carouselIndicators" data-slide-to="5">
-                        <img className="play-button" src="./images/icons/play.png" />
+                        <img className="play-button" src={play} />
                       </span>
                     </div>
                   </a>
@@ -82,7 +83,7 @@ class Gallery extends React.Component {
                     <div className="demo-text">
                       <h1>Innovation Space University of Denver</h1>
                       <span className="play-button_wrapper" role="button" data-target="#carouselIndicators" data-slide-to="6">
-                        <img className="play-button" src="./images/icons/play.png" />
+                        <img className="play-button" src={play} />
                       </span>
                     </div>
                   </a>
@@ -92,7 +93,7 @@ class Gallery extends React.Component {
                     <div className="demo-text">
                       <h1>Dancefestopia BoomBox Cartel Demo</h1>
                       <span className="play-button_wrapper" role="button" data-target="#carouselIndicators" data-slide-to="7">
-                        <img className="play-button" src="./images/icons/play.png" />
+                        <img className="play-button" src={play} />
                       </span>
                     </div>
                   </a>
@@ -104,7 +105,7 @@ class Gallery extends React.Component {
                     <div className="demo-text">
                       <h1>Dancetopia Deadeats Recap</h1>
                       <span className="play-button_wrapper" role="button" data-target="#carouselIndicators" data-slide-to="6">
-                        <img className="play-button" src="./images/icons/play.png" />
+                        <img className="play-button" src={play} />
                       </span>
                     </div>
                   </a>
@@ -114,7 +115,7 @@ class Gallery extends React.Component {
                     <div className="demo-text">
                       <h1>Shambala Medasin Recap</h1>
                       <span className="play-button_wrapper" role="button" data-target="#carouselIndicators" data-slide-to="7">
-                        <img className="play-button" src="./images/icons/play.png" />
+                        <img className="play-button" src={play} />
                       </span>
                     </div>
                   </a>
