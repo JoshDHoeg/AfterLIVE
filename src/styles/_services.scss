@@ -1,0 +1,23 @@
+#services{
+  background: #222222;
+  color: #eeeeee;
+  padding-bottom: 32px;
+  .row{
+    padding: 32px;
+  }
+  .title{
+    padding-top: 64px;
+    h2{
+      font-size: 4vw;
+    }
+  }
+  .service{
+    padding: 0 32px;
+  }
+  img{
+    margin: 16px;
+  }
+  p{
+    color: #ccc;
+  }
+}

@@ -1,8 +1,16 @@
 require('bootstrap');
 require('./styles/styles.scss');
 
+import React from 'react';
+import { render } from 'react-dom';
+import Particle from './app/containers/particle.jsx';
 
-console.log("dude:");
+
+
+render(
+  <Particle />,
+  document.getElementById('particles-js')
+);
 
 window.onload = function () {
 
