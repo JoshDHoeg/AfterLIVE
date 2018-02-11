@@ -26,7 +26,7 @@ module.exports = {
       { test: /\.jsx?$/, exclude: /node_modules/, loader: "babel-loader" },
       {
         test: /\.scss$/,
-        include: [ path.resolve(__dirname, "src/styles") ],
+        include: [ path.resolve(__dirname, "src/assets/styles") ],
         use: extractAppStyles.extract({
           use: [
             { loader: 'css-loader', options: { minimize: true } },

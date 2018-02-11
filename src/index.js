@@ -1,15 +1,15 @@
 require('bootstrap');
-require('./styles/styles.scss');
+require('./assets/styles/styles.scss');
 
 import React from 'react';
 import { render } from 'react-dom';
-import Particle from './app/containers/particle.jsx';
+import App from './app/containers/app.jsx';
 
 
 
 render(
-  <Particle />,
-  document.getElementById('particles-js')
+  <App />,
+  document.getElementById('site-content')
 );
 
 window.onload = function () {

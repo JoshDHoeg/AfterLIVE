@@ -8,15 +8,17 @@ class Particle extends React.Component {
 
     render(){
         return (
+          <section className="cta-wrapper" id="particles-js">
+            <div className="cta" id="zbwid-ecefc108" />
             <Particles
               params={
                 {
                   "particles": {
                     "number": {
-                      "value": 64,
+                      "value": 32,
                       "density": {
                         "enable": true,
-                        "value_area": 1600
+                        "value_area": 800
                       }
                     },
                     "color": {
@@ -80,7 +82,7 @@ class Particle extends React.Component {
                     }
                   },
                   "interactivity": {
-                    "detect_on": "canvas",
+                    "detect_on": "window",
                     "events": {
                       "onhover": {
                         "enable": true,
@@ -122,6 +124,7 @@ class Particle extends React.Component {
                 }
               }
               />
+            </section>
         );
     }
 }
