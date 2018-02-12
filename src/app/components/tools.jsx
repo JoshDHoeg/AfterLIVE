@@ -28,15 +28,15 @@ class Tools extends React.Component {
             </div>
             <div id="tools_wrapper">
               <div id="tools_container">
-                <div className="box"><div><img src={oculus} /></div></div>
-                <div className="box"><div><img src={unity} /></div></div>
-                <div className="box"><div><img src={daydream} /></div></div>
-                <div className="box"><div><img src={facebook} /></div></div>
-                <div className="box"><div><img src={gear} /></div></div>
-                <div className="box"><div><img src={insta360} /></div></div>
-                <div className="box"><div><img src={theta} /></div></div>
-                <div className="box"><div><img src={orah} /></div></div>
-                <div className="box"><div><img src={vive} /></div></div>
+                <div className="box"><img src={oculus} /></div>
+                <div className="box"><img src={unity} /></div>
+                <div className="box"><img src={daydream} /></div>
+                <div className="box"><img src={facebook} /></div>
+                <div className="box"><img src={gear} /></div>
+                <div className="box"><img src={insta360} /></div>
+                <div className="box"><img src={theta} /></div>
+                <div className="box"><img src={orah} /></div>
+                <div className="box"><img src={vive} /></div>
               </div>
             </div>
           </section>

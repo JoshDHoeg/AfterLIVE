@@ -1,37 +1,16 @@
-#tools_wrapper .box {
-  width:250px;
-  height:250px;
-  display:inline-block;
-  position:relative;
+
+#tools_wrapper{
+  overflow:auto;
+  display: block;
+  max-height: 250px;
+  width: 100%;
 }
-#tools_wrapper .box > div {
-  width:200px;
-  height:200px;
-  font-size:96px;
-  color:#FFF;
-  position:absolute;
-  top:50%;
-  left:50%;
-  margin:-100px 0 0 -100px;
-  line-height:.7;
-  font-weight:bold;
+#tools_container{
+  width: 1800px;
+  overflow: hidden;
 }
-#tools_wrapper {
-  overflow-y:scroll;
-  overflow-x:hidden;
-  transform: rotate(270deg) translateX(-100%);
-  transform-origin: top left;
-  background-color:#999;
-  position:absolute;
-  width:250px;
-  height:100vw;
-  background: #222;
-}
-#tools_container {
-  transform: rotate(90deg) translateY(-250px);
-  transform-origin: top left;
-  white-space:nowrap;
-  font-size:0;
+#tools_container .box{
+  display: inline-block;
 }
 #tools_wrapper #tools_container img{
   width: 200px;
@@ -40,7 +19,6 @@
 #tools{
     // background: linear-gradient(#111, #222);
     background: #222;
-    margin-bottom: 250px;
 }
 #tools .title{
   color: #ffffff;

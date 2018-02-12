@@ -24,34 +24,34 @@ class Modal extends React.Component {
               </ol>
               <div className="carousel-inner">
                 <div className="carousel-item" data-interval="false" id="shambhala-demo">
-                  <iframe width="798" height="450" src="https://www.youtube.com/embed/MCl-3mAClVg" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen />
+                  <iframe width="798" height="450" src="https://www.youtube.com/embed/MCl-3mAClVg" frameBorder="0" allow="autoPlay; encrypted-media" allowFullScreen />
                 </div>
                 <div className="carousel-item" data-interval="false" id="snow-demo">
-                  <iframe width="798" height="450" src="https://www.youtube.com/embed/SfjiLn7Jq-c" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen />
+                  <iframe width="798" height="450" src="https://www.youtube.com/embed/SfjiLn7Jq-c" frameBorder="0" allow="autoPlay; encrypted-media" allowFullScreen />
                 </div>
                 <div className="carousel-item" data-interval="false" id="daniels-demo">
                   <iframe width="798" height="450" src="https://ocurus.com/tour/Nzk0" frameBorder="0" allowFullScreen scrolling="no" />
                 </div>
                 <div className="carousel-item" data-interval="false" id="borgore-demo">
-                  <iframe width="798" height="450" src="https://www.youtube.com/embed/frfZRsoCyew" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen />
+                  <iframe width="798" height="450" src="https://www.youtube.com/embed/frfZRsoCyew" frameBorder="0" allow="autoPlay; encrypted-media" allowFullScreen />
                 </div>
                 <div className="carousel-item" data-interval="false" id="peoplesfair-demo">
-                  <iframe width="798" height="450" src="https://www.youtube.com/embed/QFo6ixyAPQ8" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen />
+                  <iframe width="798" height="450" src="https://www.youtube.com/embed/QFo6ixyAPQ8" frameBorder="0" allow="autoPlay; encrypted-media" allowFullScreen />
                 </div>
                 <div className="carousel-item" data-interval="false" id="um-demo">
-                  <iframe width="798" height="450" src="https://www.youtube.com/embed/7NwsuDU2SfE" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen />
+                  <iframe width="798" height="450" src="https://www.youtube.com/embed/7NwsuDU2SfE" frameBorder="0" allow="autoPlay; encrypted-media" allowFullScreen />
                 </div>
                 <div className="carousel-item" data-interval="false" id="innovation-demo">
                   <iframe width="798" height="450" src="https://ocurus.com/tour/Nzk1" frameBorder="0" allowFullScreen scrolling="no" />
                 </div>
                 <div className="carousel-item active" data-interval="false" id="boombox-demo">
-                  <iframe width="798" height="450" src="https://www.youtube.com/embed/QFKlTMSsvlM" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen />
+                  <iframe width="798" height="450" src="https://www.youtube.com/embed/QFKlTMSsvlM" frameBorder="0" allow="autoPlay; encrypted-media" allowFullScreen />
                 </div>
                 <div className="carousel-item" data-interval="false" id="deadbeats-demo">
-                  <iframe width="798" height="450" src="https://www.youtube.com/embed/Z7mfAsAgnZI" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen />
+                  <iframe width="798" height="450" src="https://www.youtube.com/embed/Z7mfAsAgnZI" frameBorder="0" allow="autoPlay; encrypted-media" allowFullScreen />
                 </div>
                 <div className="carousel-item" data-interval="false" id="medasin-demo">
-                  <iframe width="798" height="450" src="https://www.youtube.com/embed/8835B4Yig18" frameBorder="0" allow="autoplay; encrypted-media" allowFullScreen />
+                  <iframe width="798" height="450" src="https://www.youtube.com/embed/8835B4Yig18" frameBorder="0" allow="autoPlay; encrypted-media" allowFullScreen />
                 </div>
               </div>
             </div>

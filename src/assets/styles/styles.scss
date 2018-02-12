@@ -16,9 +16,6 @@ $fade-2: rgba(191, 39, 38, 0.6);
   font-family: 'Rajdhani', sans-serif;
 }
 
-::-webkit-scrollbar {
-  display: none;
-}
 .break{
   height: 2px;
   margin: 16px;
@@ -36,17 +33,4 @@ $fade-2: rgba(191, 39, 38, 0.6);
 .carousel-item img{
   max-height: 768px;
   width: 100%;
-}
-@media screen and (min-width: 1200px){
-  #particle-js {
-    background-color: #ffffff;
-    canvas{
-      height: 1500px !important;
-    }
-  }
-}
-@media (max-width: 650px){
-  #particle-js canvas{
-    height: 800px !important;
-  }
 }

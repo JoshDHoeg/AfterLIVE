@@ -1,5 +1,7 @@
 import React from 'react';
-import icon from './../../assets/images/icons/play.png';
+import facebook from './../../assets/images/icons/facebook.png';
+import instagram from './../../assets/images/icons/instagram.png';
+import youtube from './../../assets/images/icons/youtube.png';
 import bg from './../../assets/images/bg.png';
 
 class Footer extends React.Component {
@@ -12,16 +14,15 @@ class Footer extends React.Component {
           <section id="footer">
             <img src={bg} />
             <div className="footer-content container-fluid">
-              <div className="row socials">
-                <div className="social col-sm-2 offset-sm-3">
-                  <a href="#"><img src={icon} /></a>
+              <div className="row">
+                <div className="col-sm-4 offset-sm-4 socials">
+                  <a href="#"><img src={facebook} /></a>
+                  <a href="#"><img src={instagram} /></a>
+                  <a href="#"><img src={youtube} /></a>
                 </div>
-                <div className="social col-sm-2">
-                  <a href="#"><img src={icon} /></a>
-                </div>
-                <div className="social col-sm-2">
-                  <a href="#"><img src={icon} /></a>
-                </div>
+              </div>
+              <div className="row text-center copyright">
+                <p>Copyright &#169; MTS, LLC 2016.  All Rights Reserved. </p>
               </div>
             </div>
           </section>

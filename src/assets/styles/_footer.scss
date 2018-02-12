@@ -10,7 +10,25 @@
     height: 400px;
     background: #111111;
   }
-  .social img{
+  .socials{
+    padding-top: 168px;
+  }
+  .socials a{
+    display: inline;
+    padding: 32px;
+  }
+  .socials img{
     width: 64px;
+  }
+  .copyright p{
+    text-align: center;
+    color: #ffffff;
+    margin: 16px auto;
+  }
+  @media (max-width : 650px){
+    padding-top: 720px;
+  }
+  @media (max-width : 500px){
+    padding-top: 840px;
   }
 }
