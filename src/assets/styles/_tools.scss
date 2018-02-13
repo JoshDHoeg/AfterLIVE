@@ -2,19 +2,19 @@
 #tools_wrapper{
   overflow:auto;
   display: block;
-  max-height: 250px;
+  max-height: 300px;
   width: 100%;
 }
 #tools_container{
-  width: 1800px;
+  width: 2700px;
   overflow: hidden;
 }
 #tools_container .box{
   display: inline-block;
 }
 #tools_wrapper #tools_container img{
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
 }
 #tools{
     // background: linear-gradient(#111, #222);

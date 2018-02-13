@@ -15,11 +15,11 @@ class Footer extends React.Component {
             <img src={bg} />
             <div className="footer-content container-fluid">
               <div className="row">
-                <div className="col-sm-4 offset-sm-4 socials">
+                <p className=" socials">
                   <a href="#"><img src={facebook} /></a>
                   <a href="#"><img src={instagram} /></a>
                   <a href="#"><img src={youtube} /></a>
-                </div>
+                </p>
               </div>
               <div className="row text-center copyright">
                 <p>Copyright &#169; MTS, LLC 2016.  All Rights Reserved. </p>

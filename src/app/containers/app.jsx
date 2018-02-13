@@ -19,9 +19,9 @@ class App extends React.Component {
         <div className="content-wrapper">
           <Intro />
           <Ethos />
+          <Tools />
           <Services />
           <Gallery />
-          <Tools />
           <Particle />
           <Footer />
           <Modal />

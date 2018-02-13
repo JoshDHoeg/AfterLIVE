@@ -27,7 +27,7 @@ class Services extends React.Component {
                   <img src={livestream} width="64px" />
                   <h3>Livestream VR</h3>
                   <div className="break" />
-                  <p>Experienced 360° videographers with Steroscopic 8K cameras.</p>
+                  <p>professionally Stream live 360 Video to Youtube or Facebook.</p>
                 </div>
                 <div className="col-sm-12 col-md-4 service">
                   <img src={action} width="64px" />
@@ -39,7 +39,7 @@ class Services extends React.Component {
                   <img src={tour} width="64px" />
                   <h3>VR Virtual Tours</h3>
                   <div className="break" />
-                  <p>Experienced 360° videographers with Steroscopic 8K cameras.</p>
+                  <p>Google certified bespoke virtual tours with embeded content.</p>
                 </div>
               </div>
               <div className="row">
@@ -47,13 +47,13 @@ class Services extends React.Component {
                   <img src={edit} width="64px" />
                   <h3>VR Edits</h3>
                   <div className="break" />
-                  <p>Experienced 360° videographers with Steroscopic 8K cameras.</p>
+                  <p>360 video edited and compiled for your regular 2D Content.</p>
                 </div>
                 <div className="col-sm-12 col-md-4 service">
                   <img src={audio} width="64px" />
                   <h3>Spatialized Audio</h3>
                   <div className="break" />
-                  <p>Experienced 360° videographers with Steroscopic 8K cameras.</p>
+                  <p>State of the art capture of all 360 degress of sound</p>
                 </div>
               </div>
             </div>

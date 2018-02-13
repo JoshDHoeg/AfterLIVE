@@ -12,10 +12,17 @@
   }
   .socials{
     padding-top: 168px;
+    text-align: center;
+    display: block;
+    float: none;
+    margin: 0 25%;
+    width: 50%;
   }
   .socials a{
     display: inline;
     padding: 32px;
+    margin: 16px auto;
+    text-align: center;
   }
   .socials img{
     width: 64px;

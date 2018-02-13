@@ -9,4 +9,22 @@
     font-size: 2vw;
     color: #eeeeee;
   }
+  @media (max-width : 600px){
+    padding: 150px 50px;
+    h2{
+      font-size:10vw;
+    }
+    p{
+      font-size: 3vw;
+    }
+  }
+  @media (max-width : 450px){
+    padding: 100px 20px;
+    h2{
+      font-size:10vw;
+    }
+    p{
+      font-size: 4vw;
+    }
+  }
 }
