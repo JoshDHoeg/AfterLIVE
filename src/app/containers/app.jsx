@@ -7,16 +7,18 @@ import Gallery from '../components/gallery.jsx';
 import Tools from '../components/tools.jsx';
 import Ethos from '../components/ethos.jsx';
 import Intro from '../components/intro.jsx';
-import Modal from '../components/modal.jsx';
+import Loader from '../components/loader.jsx';
 
 class App extends React.Component {
   constructor(props) {
       super(props);
     }
+
 //html render for the legislator list
     render() {
       return (
         <div className="content-wrapper">
+          <Loader />
           <Intro />
           <Ethos />
           <Tools />
@@ -24,7 +26,6 @@ class App extends React.Component {
           <Gallery />
           <Particle />
           <Footer />
-          <Modal />
         </div>
       );
     }
