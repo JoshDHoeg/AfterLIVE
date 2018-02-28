@@ -1,9 +1,9 @@
 import React from 'react';
-import livestream from './../../assets/images/icons/livestream.png';
-import action from './../../assets/images/icons/action.png';
-import tour from './../../assets/images/icons/tour.png';
-import edit from './../../assets/images/icons/edit.png';
-import audio from './../../assets/images/icons/audio.png';
+import livestream from './../../assets/images/icons/livestream.svg';
+import action from './../../assets/images/icons/action.svg';
+import tour from './../../assets/images/icons/tour.svg';
+import edit from './../../assets/images/icons/edit.svg';
+import audio from './../../assets/images/icons/audio.svg';
 
 class Services extends React.Component {
   constructor(props) {
@@ -27,19 +27,19 @@ class Services extends React.Component {
                   <img src={livestream} width="64px" />
                   <h3>Livestream VR</h3>
                   <div className="break" />
-                  <p>professionally Stream live 360 Video to Youtube or Facebook.</p>
+                  <p>Professional 360/Virtual Reality Live Stream, directly to Youtube and Facebook.</p>
                 </div>
                 <div className="col-sm-12 col-md-4 service">
                   <img src={action} width="64px" />
                   <h3>Live Action VR</h3>
                   <div className="break" />
-                  <p>Experienced 360° videographers with Steroscopic 8K cameras.</p>
+                  <p>Virtual Reality experience shot and edited by exxperienced 360° videographers with Steroscopic 8K cameras.</p>
                 </div>
                 <div className="col-sm-12 col-md-4 service">
                   <img src={tour} width="64px" />
                   <h3>VR Virtual Tours</h3>
                   <div className="break" />
-                  <p>Google certified bespoke virtual tours with embeded content.</p>
+                  <p>Google street View Ceritifed Virtual Tour Builders, Or bespoke virtual tours embedded directly into your site.</p>
                 </div>
               </div>
               <div className="row">

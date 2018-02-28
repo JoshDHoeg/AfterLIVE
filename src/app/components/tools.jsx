@@ -1,13 +1,13 @@
 import React from 'react';
-import oculus from './../../assets/images/tools/oculus.png';
-import unity from './../../assets/images/tools/unity.png';
-import daydream from './../../assets/images/tools/daydream.png';
-import facebook from './../../assets/images/tools/facebook.png';
-import gear from './../../assets/images/tools/gear.png';
-import insta360 from './../../assets/images/tools/insta360.png';
-import theta from './../../assets/images/tools/theta.png';
-import orah from './../../assets/images/tools/orah.png';
-import vive from './../../assets/images/tools/vive.png';
+import oculus from './../../assets/images/tools/oculus.svg';
+import unity from './../../assets/images/tools/unity.svg';
+import daydream from './../../assets/images/tools/daydream.svg';
+import facebook from './../../assets/images/tools/facebook.svg';
+import gear from './../../assets/images/tools/gear.svg';
+import insta360 from './../../assets/images/tools/insta360.svg';
+import theta from './../../assets/images/tools/theta.svg';
+import orah from './../../assets/images/tools/orah.svg';
+import vive from './../../assets/images/tools/vive.svg';
 
 class Tools extends React.Component {
   constructor(props) {

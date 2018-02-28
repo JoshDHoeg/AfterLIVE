@@ -1,0 +1,16 @@
+<svg width="700" height="700" viewBox="0 0 700 700" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<title>insta360</title>
+<desc>Created using Figma</desc>
+<g id="Canvas" transform="translate(14549 12206)">
+<g id="insta360">
+<use xlink:href="#path0_fill" fill="url(#pattern0)" transform="translate(-14549 -12206)"/>
+</g>
+</g>
+<defs>
+<pattern id="pattern0" patternUnits="objectBoundingBox" patternContentUnits="objectBoundingBox" width="1" height="1">
+<use xlink:href="#image0" transform="matrix(0.00142857 0 0 0.00142857 0 0)"/>
+</pattern>
+<path id="path0_fill" d="M 0 0L 700 0L 700 700L 0 700L 0 0Z"/>
+<image id="image0" width="700" height="700" preserveAspectRatio="none" xlink:href="data:image/png;base64,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"/>
+</defs>
+</svg>

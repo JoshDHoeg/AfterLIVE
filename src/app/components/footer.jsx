@@ -1,8 +1,8 @@
 import React from 'react';
-import facebook from './../../assets/images/icons/facebook.png';
-import instagram from './../../assets/images/icons/instagram.png';
-import youtube from './../../assets/images/icons/youtube.png';
-import bg from './../../assets/images/bg.png';
+import facebook from './../../assets/images/icons/facebook.svg';
+import instagram from './../../assets/images/icons/instagram.svg';
+import youtube from './../../assets/images/icons/youtube.svg';
+import bg from './../../assets/images/bg.svg';
 
 class Footer extends React.Component {
   constructor(props) {

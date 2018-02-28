@@ -1,8 +1,8 @@
 import React from 'react';
-import weddings from './../../assets/images/weddings.png';
-import concert from './../../assets/images/concert.png';
-import spaces from './../../assets/images/spaces.png';
-import instapro from './../../assets/images/instapro.png';
+import weddings from './../../assets/images/weddings.jpg';
+import concert from './../../assets/images/concert.jpg';
+import spaces from './../../assets/images/spaces.jpg';
+import instapro from './../../assets/images/instapro.svg';
 
 class Intro extends React.Component {
   constructor(props) {
@@ -27,7 +27,7 @@ class Intro extends React.Component {
             </div>
             <div className="layer" id="l2">
               <div id="title">
-                <h1 className="text-center">WE DO 360 VIDEO</h1>
+                <h1 className="text-center">360 VIDEO EXPERTS</h1>
               </div>
             </div>
             <div className="layer" id="l3">

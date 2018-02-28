@@ -1,5 +1,5 @@
 import React from 'react';
-import play from './../../assets/images/icons/play.png';
+import play from './../../assets/images/icons/play.svg';
 
 class Gallery extends React.Component {
   constructor(props) {
