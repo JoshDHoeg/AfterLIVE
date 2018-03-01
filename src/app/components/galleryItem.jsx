@@ -19,7 +19,6 @@ class GalleryItem extends React.Component {
 
     onCloseModal () {
       this.setState({ open: false });
-      console.log(this.state.open);
     }
 
 

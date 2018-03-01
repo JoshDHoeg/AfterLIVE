@@ -8,7 +8,7 @@ class Loader extends React.Component {
 
 
   componentDidMount() {
-    setTimeout(() => this.setState({ loading: false }), 1000); // simulates an async action, and hides the spinner
+    setTimeout(() => this.setState({ loading: false }), 10000); // simulates an async action, and hides the spinner
   }
 
   render(){
