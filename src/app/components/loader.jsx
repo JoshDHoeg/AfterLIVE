@@ -8,7 +8,7 @@ class Loader extends React.Component {
 
 
   componentDidMount() {
-    setTimeout(() => this.setState({ loading: false }), 10000); // simulates an async action, and hides the spinner
+    setTimeout(() => this.setState({ loading: false }), 100);
   }
 
   render(){
@@ -16,10 +16,20 @@ class Loader extends React.Component {
 
     if(loading){
       return(
-        <div className="loader">loading</div>
+        <div className="loader">
+          <div className="load">
+            <div className="circle" id="circle-1" />
+            <div className="circle" id="circle-2" />
+            <div className="circle" id="circle-3" />
+            <div className="circle" id="circle-4" />
+            <div className="circle" id="circle-5" />
+          </div>
+        </div>
       );
     }
-    return(null);
+    return(
+      <div className="loader loaded"/>
+    );
   }
 }
 

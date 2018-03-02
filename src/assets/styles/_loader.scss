@@ -8,3 +8,95 @@
   z-index: 1000;
   display: block;
 }
+.load{
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  width: 360px;
+  height: 360px;
+  margin-right: -180px;
+  margin-top: -180px;
+  // background: #ffffff;
+}
+@keyframes spin1{
+    from {}
+    to {transform: rotate(480deg);}
+}
+@keyframes spin2{
+    from {}
+    to {transform: rotate(440deg);}
+}
+@keyframes spin3{
+    from {}
+    to {transform: rotate(400deg);}
+}
+@keyframes spin4{
+    from {}
+    to {transform: rotate(360deg);}
+}
+@keyframes spin5{
+    from {}
+    to {transform: rotate(320deg);}
+}
+.circle{
+  border-top: solid 2px #BF2726;
+  border-radius: 100%;
+  position: absolute;
+  top: 50%;
+  right: 50%;
+  animation-duration: 1.5s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+  &#circle-1{
+    width: 240px;
+    height: 240px;
+    margin-top: -120px;
+    margin-right: -120px;
+    animation-name: spin1;
+      transform: rotate(120deg);
+  }
+  &#circle-2{
+    width: 200px;
+    height: 200px;
+    margin-top: -115px;
+    margin-right: -100px;
+    animation-name: spin2;
+    transform: rotate(80deg);
+  }
+  &#circle-3{
+    width: 160px;
+    height: 160px;
+    margin-top: -110px;
+    margin-right: -80px;
+    transform: rotate(40deg);
+    animation-name: spin3;
+  }
+  &#circle-4{
+    width: 120px;
+    height: 120px;
+    margin-top: -105px;
+    margin-right: -60px;
+    transform: rotate(0deg);
+    animation-name: spin4;
+  }
+  &#circle-5{
+    width: 80px;
+    height: 80px;
+    margin-top: -100px;
+    margin-right: -40px;
+    transform: rotate(-40deg);
+    animation-name: spin5;
+  }
+}
+
+@keyframes fade{
+    0% {opacity: 1; display: block}
+    90% {opacity: 0;}
+    100% {display: none;}
+}
+.loaded{
+  opacity: 0;
+  display: none;
+  animation-name: fade;
+  animation-duration: 1s;
+}

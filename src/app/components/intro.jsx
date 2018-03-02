@@ -1,7 +1,8 @@
 import React from 'react';
-import weddings from './../../assets/images/weddings.jpg';
-import concert from './../../assets/images/concert.jpg';
-import spaces from './../../assets/images/spaces.jpg';
+import Navbar from '../components/navbar.jsx';
+import weddings from './../../assets/images/weddings.png';
+import concert from './../../assets/images/concert.png';
+import spaces from './../../assets/images/spaces.png';
 import instapro from './../../assets/images/instapro.svg';
 
 class Intro extends React.Component {
@@ -35,6 +36,7 @@ class Intro extends React.Component {
                 <img src={instapro} />
               </div>
             </div>
+            <Navbar />
           </section>
         );
     }

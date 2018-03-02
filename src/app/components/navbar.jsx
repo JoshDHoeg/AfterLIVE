@@ -1,5 +1,5 @@
 import React from 'react';
-import logo from './../../assets/images/logo.svg';
+import logo from './../../assets/images/brand/logo-white.svg';
 
 class Navbar extends React.Component {
   constructor(props) {
@@ -8,12 +8,11 @@ class Navbar extends React.Component {
 
     render(){
         return (
-          <nav className="navbar navbar-dark navbar-inverse bg-dark" data-spy="affix" data-offset-top="197">
-            <a className="navbar-brand" href="#">
-              <img src={logo} width="30" height="30" className="d-inline-block align-top" alt="" />
-              After Live
+          <div id="navbar">
+            <a className="navbar-brand" href="/">
+              <img src={logo} height="24px;"/>
             </a>
-          </nav>
+          </div>
         );
     }
 }
