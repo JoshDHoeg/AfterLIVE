@@ -5,7 +5,8 @@ import ExtractTextPlugin from 'extract-text-webpack-plugin';
 
 const extractVendorStyles = new ExtractTextPlugin('dist/vendor.css');
 // const extractAppStyles = new ExtractTextPlugin('./[name]-[hash:8].css');
-const extractAppStyles = new ExtractTextPlugin('./[name].css');
+const extractAppStyles = new ExtractTextPlugin('./[name]-[hash:8].min.css');
+const UglifyJSPlugin = require('uglifyjs-webpack-plugin');
 
 const PATHS = {
   app: path.join(__dirname, "src/index.js"),
@@ -18,7 +19,7 @@ module.exports = {
   },
   output: {
     path: PATHS.build,
-    filename: "[name]-[hash:8].js",
+    filename: "[name]-[hash:8].min.js",
   },
   devtool: 'source-map',
   module: {
@@ -72,6 +73,9 @@ module.exports = {
   },
   plugins: [
     extractAppStyles,
+    new UglifyJSPlugin({
+      sourceMap: true
+    }),
     new HtmlWebpackPlugin({
       title: "afterlive",
       template: "./src/index.ejs"
