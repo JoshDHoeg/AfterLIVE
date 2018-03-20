@@ -8,6 +8,7 @@ import Tools from '../components/tools.jsx';
 import Ethos from '../components/ethos.jsx';
 import Intro from '../components/intro.jsx';
 import Loader from '../components/loader.jsx';
+import Navbar from '../components/navbar.jsx';
 
 class App extends React.Component {
   constructor(props) {
@@ -19,6 +20,7 @@ class App extends React.Component {
       return (
         <div className="content-wrapper">
           <Loader />
+          <Navbar />
           <Intro />
           <Ethos />
           <Tools />

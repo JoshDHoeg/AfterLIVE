@@ -1,8 +1,69 @@
+$bar-width: 36px;
+$bar-height: 4px;
+$bar-spacing: 12px;
 #navbar{
-  position: absolute;
-  bottom: 0;
-  z-index: 500;
+  position: fixed;
+  top: 0;
+  z-index: 1000;
+  width: 100%;
   .navbar-brand{
     padding: 16px;
+    float: left;
   }
+  .navbar-link{
+    right: 0;
+    padding: 12px;
+    z-index: 1000;
+    position: absolute;
+    height: 54px;
+    cursor: pointer;
+  }
+}
+#bar,
+#bar:after,
+#bar:before {
+  width: $bar-width;
+	height: $bar-height;
+  opacity: 1;
+}
+
+#bar {
+	position: relative;
+	transform: translateY($bar-spacing);
+	background: #ffffff;
+	transition: all 0ms 300ms;
+
+  &.animate {
+    background: rgba(255, 255, 255, 0);
+  }
+}
+
+#bar:before {
+	content: "";
+	position: absolute;
+	left: 0;
+	bottom: $bar-spacing;
+	background: rgba(255, 255, 255, 1);
+	transition: bottom 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+#bar:after {
+	content: "";
+	position: absolute;
+	left: 0;
+	top: $bar-spacing;
+	background: rgba(255, 255, 255, 1);
+	transition: top 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms cubic-bezier(0.23, 1, 0.32, 1);
+}
+
+#bar.animate:after {
+	top: 0;
+	transform: rotate(45deg);
+	transition: top 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);;
+}
+
+#bar.animate:before {
+	bottom: 0;
+	transform: rotate(-45deg);
+	transition: bottom 300ms cubic-bezier(0.23, 1, 0.32, 1), transform 300ms 300ms cubic-bezier(0.23, 1, 0.32, 1);;
 }

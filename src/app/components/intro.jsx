@@ -36,7 +36,6 @@ class Intro extends React.Component {
                 <img src={instapro} />
               </div>
             </div>
-            <Navbar />
           </section>
         );
     }

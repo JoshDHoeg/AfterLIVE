@@ -22,7 +22,7 @@ class Footer extends React.Component {
                 </p>
               </div>
               <div className="row text-center copyright">
-                <p>Copyright &#169; MTS, LLC 2016.  All Rights Reserved. </p>
+                <p>Copyright &#169; After Live LLC 2018.  All Rights Reserved. </p>
               </div>
             </div>
           </section>
